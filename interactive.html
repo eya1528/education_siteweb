@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Page - Educational Site</title>
+    <link rel="stylesheet" href="interactive.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="education.html">Education</a></li>
+          <li><a href="interactive.html">Interactive</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Interactive Learning</h1>
+
+      <!-- Quiz Section -->
+      <section id="quiz" class="container">
+        <h2>Programming Quiz</h2>
+        <p>Test your knowledge with our quiz!</p>
+        <div id="quiz-container">
+          <div id="question">Question will appear here</div>
+          <div class="options">
+            <button class="option">Option A</button>
+            <button class="option">Option B</button>
+            <button class="option">Option C</button>
+            <button class="option">Option D</button>
+          </div>
+          <button id="next-question">Next Question</button>
+        </div>
+      </section>
+
+      <!-- Programming Challenges -->
+      <section id="programming-challenges" class="container">
+        <h2>Programming Challenges</h2>
+        <p>Try solving these programming challenges!</p>
+        <div class="challenge">
+          <h3>Challenge 1: Factorial Calculation</h3>
+          <pre><code>Write a function to calculate the factorial of a number.</code></pre>
+          <textarea id="challenge1-code" placeholder="Write your code here..."></textarea>
+          <button class="submit-challenge">Submit Solution</button>
+        </div>
+      </section>
+
+      <!-- Comments Section -->
+      <section id="comments" class="container">
+        <h2>Leave a Comment</h2>
+        <p>Share your thoughts and feedback!</p>
+        <textarea id="comment-box" placeholder="Type your feedback here..."></textarea>
+        <button id="submit-comment">Submit Comment</button>
+        <div id="comment-list">
+          <!-- User comments will be listed here -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Educational Interactive Site. All Rights Reserved.</p>
+    </footer>
+
+    <script src="interactive.js"></script>
+  </body>
+</html>
