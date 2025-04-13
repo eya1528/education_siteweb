@@ -15,7 +15,7 @@ body {
 
 /* Header Styles */
 header {
-  background: #4caf50;
+  background: #37a4f1;
   color: #fff;
   padding: 10px 0;
   text-align: center;
@@ -67,7 +67,7 @@ main p {
 }
 
 .container h2 {
-  color: #4caf50;
+  color: #37a4f1;
   margin-bottom: 10px;
 }
 
@@ -145,7 +145,7 @@ footer p {
 }
 
 #courses h2 {
-  color: #4caf50;
+  color: #37a4f1;
   margin-bottom: 20px;
 }
 

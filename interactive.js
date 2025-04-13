@@ -10,6 +10,16 @@ const questions = [
     options: ["HyperText Markup Language", "HyperText Machine Language", "HighText Markup Language", "None of the above"],
     correct: "HyperText Markup Language"
   },
+  {
+    question:  "What does CSS stand for?",
+    options: [     "Cascading Style Sheets","Colorful Style Sheets","Computer Style Sheets", "Creative Style Sheets"],
+    correct:  "Cascading Style Sheets"
+  },
+  {
+    question: "Which keyword is used to declare a variable in JavaScript?",
+    options: ["int", "var", "let", "both var and let"],
+    correct: "both var and let"
+  },
 ];
 
 let currentQuestionIndex = 0;
@@ -26,7 +36,7 @@ function displayQuestion() {
   });
 }
 
-function checkAnswer
+function checkAnswer(selectedOption)
  {
   const currentQuestion = questions[currentQuestionIndex];
   if (selectedOption.textContent === currentQuestion.correct) {
@@ -38,7 +48,7 @@ function checkAnswer
 
 options.forEach(option => {
   option.addEventListener("click", function() {
-    checkAnswer(option);
+    checkAnswer(this);
   });
 });
 
